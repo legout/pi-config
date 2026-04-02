@@ -20,6 +20,28 @@ When you run `./sync.sh export` on a configured machine, real secret-bearing cop
 
 `private/` is gitignored and never committed.
 
+## Bootstrap helper
+
+Use `./bootstrap-secrets.sh` to manage local secret-bearing config:
+
+```bash
+./bootstrap-secrets.sh status
+./bootstrap-secrets.sh capture
+./bootstrap-secrets.sh install
+```
+
+### Typical flow
+
+On a machine that already has working pi config:
+
+1. `./bootstrap-secrets.sh capture`
+2. keep `private/` local or sync it with your own secure file-sync method
+
+After a restore or reset on that same machine:
+
+1. `./restore.sh`
+2. `./bootstrap-secrets.sh install`
+
 ## Restore behavior
 
 `./restore.sh` prefers local `private/*.json` files when present.

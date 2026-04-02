@@ -23,6 +23,7 @@ pi-config/
 ├── bin/                     # Local binaries (some may be gitignored)
 ├── sync.sh                  # Export current machine config into this repo
 ├── restore.sh               # Restore config onto a machine
+├── bootstrap-secrets.sh     # Manage local private secret-bearing config
 └── .gitignore
 ```
 
@@ -57,9 +58,25 @@ git push
 git clone git@github.com:legout/pi-config.git ~/coding/pi-config
 cd ~/coding/pi-config
 ./restore.sh
+./bootstrap-secrets.sh status
 ```
 
 If `private/` is absent on that machine, `restore.sh` will restore sanitized config and warn you to add secrets locally.
+
+## Secret bootstrap workflow
+
+```bash
+# Inspect whether local private config exists
+./bootstrap-secrets.sh status
+
+# Capture current live secrets into local gitignored private/
+./bootstrap-secrets.sh capture
+
+# Reinstall local private secrets into ~/.pi after restore or reset
+./bootstrap-secrets.sh install
+```
+
+This is useful when a machine already has working provider config and you want to persist it locally without ever committing those secrets.
 
 ## Determinism
 
