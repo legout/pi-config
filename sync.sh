@@ -27,6 +27,13 @@ reset_dir() {
     find "$dir" -mindepth 1 -maxdepth 1 -exec rm -rf {} + 2>/dev/null || true
 }
 
+clean_tree() {
+    local dir="$1"
+    [ -d "$dir" ] || return 0
+    find "$dir" \( -name '.DS_Store' -o -name '*.pyc' \) -type f -delete 2>/dev/null || true
+    find "$dir" \( -name '__pycache__' -o -name '.git' \) -type d -prune -exec rm -rf {} + 2>/dev/null || true
+}
+
 export_config() {
     require_cmd python3
     [ -f "$SANITIZER" ] || { error "Missing sanitizer script: $SANITIZER"; exit 1; }
@@ -103,6 +110,7 @@ export_config() {
         if [ "$file_count" -gt 0 ]; then
             info "    $name ($file_count files)"
             cp -R "$entry" "$CONFIG_DIR/skills/$name"
+            clean_tree "$CONFIG_DIR/skills/$name"
             ((custom_count++)) || true
         fi
     done
@@ -118,6 +126,7 @@ export_config() {
             [[ "$name" == .* ]] && continue
             if [ -d "$entry" ]; then
                 cp -R "$entry" "$CONFIG_DIR/installed-skills/$name"
+                clean_tree "$CONFIG_DIR/installed-skills/$name"
                 ((installed_count++)) || true
             elif [ -f "$entry" ]; then
                 cp "$entry" "$CONFIG_DIR/installed-skills/"
