@@ -4,6 +4,7 @@ set -euo pipefail
 PI_HOME="${PI_HOME:-$HOME/.pi/agent}"
 PI_ROOT="${PI_ROOT:-$HOME/.pi}"
 AGENTS_SKILLS="${AGENTS_SKILLS:-$HOME/.agents/skills}"
+RUN_PI_UPDATE="${RUN_PI_UPDATE:-1}"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 CONFIG_DIR="$SCRIPT_DIR"
 
@@ -216,6 +217,21 @@ for f in "$CONFIG_DIR"/bin/*; do
     info "  $name"
 done
 
+if [ "$RUN_PI_UPDATE" = "1" ]; then
+    step "Running pi update"
+    if command -v pi >/dev/null 2>&1; then
+        if pi update; then
+            info "  pi update completed"
+        else
+            warn "  pi update failed; run it manually after restore"
+        fi
+    else
+        warn "  pi not found on PATH; run 'pi update' manually after restore"
+    fi
+else
+    warn "Skipping pi update because RUN_PI_UPDATE=$RUN_PI_UPDATE"
+fi
+
 echo ""
 echo "=========================================="
 echo "       Restore Complete"
@@ -223,4 +239,4 @@ echo "=========================================="
 echo ""
 warn "auth.json is still not restored by this project."
 warn "If private/ is absent, sanitized placeholder config was restored."
-info "Restart pi after restore."
+info "If needed, run 'pi update' and restart pi after restore."

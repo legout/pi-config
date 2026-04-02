@@ -61,7 +61,15 @@ cd ~/coding/pi-config
 ./bootstrap-secrets.sh status
 ```
 
+`restore.sh` also tries to run `pi update` so configured pi packages/extensions get installed or updated.
+
 If `private/` is absent on that machine, `restore.sh` will restore sanitized config and warn you to add secrets locally.
+
+If you want to skip the automatic update step:
+
+```bash
+RUN_PI_UPDATE=0 ./restore.sh
+```
 
 ## Secret bootstrap workflow
 
