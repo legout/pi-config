@@ -1,0 +1,169 @@
+{
+  "defaultModel": "gpt-5.4",
+  "defaultProvider": "github-copilot",
+  "defaultThinkingLevel": "high",
+  "enabledModels": [
+    "minimax/*",
+    "zai/*",
+    "github-copilot/gpt-5*",
+    "github-copilot/grok-code-fast-1",
+    "github-copilot/claude*",
+    "github-copilot/gemini*",
+    "openai-codex/*",
+    "google-antigravity/*",
+    "siemens/*",
+    "chutes/**",
+    "kimi-coding/*",
+    "openrouter/*",
+    "stepfun/*",
+    "zai-org/*",
+    "ollama/*"
+  ],
+  "lastChangelogVersion": "0.64.0",
+  "lsp": {
+    "hookMode": "edit_write"
+  },
+  "packages": [
+    "npm:@tmustier/pi-usage-extension",
+    "npm:pi-review-loop",
+    "npm:pi-model-switch",
+    "npm:pi-prompt-template-model",
+    {
+      "source": "npm:pi-web-access",
+      "extensions": [
+        "+index.ts"
+      ]
+    },
+    "npm:pi-mcp-adapter",
+    {
+      "extensions": [
+        "-ralph-loop/ralph-loop.ts"
+      ],
+      "source": "npm:pi-hooks"
+    },
+    "npm:pi-markdown-preview",
+    {
+      "source": "npm:pi-interview",
+      "extensions": [
+        "-index.ts"
+      ]
+    },
+    "npm:glimpseui",
+    {
+      "source": "npm:mitsupi",
+      "extensions": [
+        "-pi-extensions/whimsical.ts"
+      ],
+      "skills": [
+        "-skills/anachb/SKILL.md",
+        "-skills/apple-mail/SKILL.md",
+        "-skills/ghidra/SKILL.md",
+        "-skills/oebb-scotty/SKILL.md",
+        "-skills/openscad/SKILL.md",
+        "-skills/sentry/SKILL.md",
+        "-skills/web-browser/SKILL.md",
+        "-skills/google-workspace/SKILL.md",
+        "-skills/librarian/SKILL.md",
+        "-skills/native-web-search/SKILL.md",
+        "-skills/pi-share/SKILL.md",
+        "+skills/frontend-design/SKILL.md",
+        "+skills/commit/SKILL.md",
+        "+skills/github/SKILL.md",
+        "+skills/mermaid/SKILL.md",
+        "+skills/summarize/SKILL.md",
+        "+skills/tmux/SKILL.md",
+        "+skills/update-changelog/SKILL.md",
+        "+skills/uv/SKILL.md"
+      ]
+    },
+    {
+      "source": "npm:pi-cline-free-models",
+      "extensions": [
+        "-index.ts"
+      ]
+    },
+    "npm:pi-mermaid",
+    "npm:pi-fzf",
+    "git:github.com/mrexodia/kilo-pi-provider",
+    "git:github.com/jo-inc/pi-reflect",
+    "npm:pi-powerline-footer",
+    "npm:pi-ask-user",
+    "npm:pi-brain",
+    "git:github.com/HazAT/pi-interactive-subagents",
+    "git:github.com/legout/pi-ticket-flow"
+  ],
+  "permissionLevel": "bypassed",
+  "reviewerLoop": {
+    "autoTrigger": false,
+    "maxIterations": 3,
+    "reviewPrompt": "template:double-check"
+  },
+  "powerline": "default",
+  "skills": [
+    "-../../.agents/skills/anywidget-generator/SKILL.md",
+    "-../../.agents/skills/developing-with-streamlit/skills/building-streamlit-chat-ui/SKILL.md",
+    "-../../.agents/skills/developing-with-streamlit/skills/building-streamlit-custom-components-v2/SKILL.md",
+    "-../../.agents/skills/developing-with-streamlit/skills/building-streamlit-dashboards/SKILL.md",
+    "-../../.agents/skills/developing-with-streamlit/skills/building-streamlit-multipage-apps/SKILL.md",
+    "-../../.agents/skills/developing-with-streamlit/skills/choosing-streamlit-selection-widgets/SKILL.md",
+    "-../../.agents/skills/chrome-cdp/SKILL.md",
+    "-../../.agents/skills/developing-with-streamlit/skills/connecting-streamlit-to-snowflake/SKILL.md",
+    "-../../.agents/skills/developing-with-streamlit/skills/creating-streamlit-themes/SKILL.md",
+    "-../../.agents/skills/developing-with-streamlit/SKILL.md",
+    "-../../.agents/skills/developing-with-streamlit/skills/displaying-streamlit-data/SKILL.md",
+    "-../../.agents/skills/doc-coauthoring/SKILL.md",
+    "-../../.agents/skills/docx/SKILL.md",
+    "-../../.agents/skills/duckdb/SKILL.md",
+    "-skills/find-skills/SKILL.md",
+    "-skills/holoviews/SKILL.md",
+    "-skills/html-slides/SKILL.md",
+    "-skills/hvplot/SKILL.md",
+    "-skills/image-ocr/SKILL.md",
+    "-skills/developing-with-streamlit/skills/improving-streamlit-design/SKILL.md",
+    "-skills/jupyter-to-marimo/SKILL.md",
+    "-skills/marimo-batch/SKILL.md",
+    "-skills/marimo-notebook/SKILL.md",
+    "-skills/marp-slide/SKILL.md",
+    "-skills/modern-python/SKILL.md",
+    "-skills/ocr-document-processor/SKILL.md",
+    "-skills/developing-with-streamlit/skills/optimizing-streamlit-performance/SKILL.md",
+    "-skills/developing-with-streamlit/skills/organizing-streamlit-code/SKILL.md",
+    "-skills/panel/SKILL.md",
+    "-skills/panel-custom-components/SKILL.md",
+    "-skills/panel-holoviews/SKILL.md",
+    "-skills/panel-material-ui/SKILL.md",
+    "-skills/pdf/SKILL.md",
+    "-skills/pdf-toolkit/SKILL.md",
+    "-skills/plotly/SKILL.md",
+    "-skills/polars/SKILL.md",
+    "-skills/pptx/SKILL.md",
+    "-../../.agents/skills/developing-with-streamlit/skills/setting-up-streamlit-environment/SKILL.md",
+    "-../../.agents/skills/siemens-brandville/SKILL.md",
+    "-../../.agents/skills/skill-creator/SKILL.md",
+    "-skills/slidev-styling/SKILL.md",
+    "-skills/smart-ocr/SKILL.md",
+    "-skills/streamlit-to-marimo/SKILL.md",
+    "-skills/table-extractor/SKILL.md",
+    "-skills/template-skill/SKILL.md",
+    "-skills/developing-with-streamlit/skills/using-streamlit-cli/SKILL.md",
+    "-skills/developing-with-streamlit/skills/using-streamlit-custom-components/SKILL.md",
+    "-skills/developing-with-streamlit/skills/using-streamlit-layouts/SKILL.md",
+    "-skills/developing-with-streamlit/skills/using-streamlit-markdown/SKILL.md",
+    "-skills/developing-with-streamlit/skills/using-streamlit-session-state/SKILL.md",
+    "-skills/xlsx/SKILL.md",
+    "-skills/ralph-wiggum/SKILL.md"
+  ],
+  "prompts": [
+    "-prompts/create-siemens-pptx.md",
+    "-prompts/tf-brainstorm.md",
+    "-prompts/tf-implement.md",
+    "-prompts/tf-init.md",
+    "-prompts/tf-plan-check.md",
+    "-prompts/tf-plan-refine.md",
+    "-prompts/tf-plan.md",
+    "-prompts/tf-refactor.md",
+    "-prompts/tf-simplify.md",
+    "-prompts/tf-ticketize.md"
+  ],
+  "theme": "catppuccin-mocha"
+}

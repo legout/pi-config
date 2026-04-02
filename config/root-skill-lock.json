@@ -1,0 +1,711 @@
+{
+  "version": 3,
+  "skills": {
+    "template-skill": {
+      "source": "marimo-team/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/marimo-team/skills.git",
+      "skillPath": "template/SKILL.md",
+      "skillFolderHash": "a38aa7fa73fd2835b9ce77a60274f7dc62d015a6",
+      "installedAt": "2026-02-10T12:31:21.890Z",
+      "updatedAt": "2026-02-10T12:31:21.890Z"
+    },
+    "anywidget-generator": {
+      "source": "marimo-team/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/marimo-team/skills.git",
+      "skillPath": "skills/anywidget/SKILL.md",
+      "skillFolderHash": "e30630fd7c20fdc5acd27d5eeb7eee1b9bca82d7",
+      "installedAt": "2026-02-10T12:31:21.907Z",
+      "updatedAt": "2026-03-14T10:33:47.767Z"
+    },
+    "jupyter-to-marimo": {
+      "source": "marimo-team/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/marimo-team/skills.git",
+      "skillPath": "skills/jupyter-to-marimo/SKILL.md",
+      "skillFolderHash": "e18aa8a4443facadbcd769e3ffeacae40b33d2a7",
+      "installedAt": "2026-02-10T12:31:21.921Z",
+      "updatedAt": "2026-03-14T10:33:49.846Z"
+    },
+    "marimo-notebook": {
+      "source": "marimo-team/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/marimo-team/skills.git",
+      "skillPath": "skills/marimo-notebook/SKILL.md",
+      "skillFolderHash": "3027b91e1c1173af11fe62c992b4c9051fab21e0",
+      "installedAt": "2026-02-10T12:31:21.934Z",
+      "updatedAt": "2026-04-02T10:15:47.867Z"
+    },
+    "marimo-batch": {
+      "source": "marimo-team/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/marimo-team/skills.git",
+      "skillPath": "skills/marimo-batch/SKILL.md",
+      "skillFolderHash": "85d108e655ab3525fee3e884aa255d1da02a6437",
+      "installedAt": "2026-02-10T12:31:21.949Z",
+      "updatedAt": "2026-04-02T10:15:49.686Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-02-10T12:31:26.822Z",
+      "updatedAt": "2026-03-14T10:33:55.849Z"
+    },
+    "data-engineering": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering/SKILL.md",
+      "skillFolderHash": "3f1feb46f40f941dca48b9db219f79d7753ecf8d",
+      "installedAt": "2026-02-11T09:26:17.922Z",
+      "updatedAt": "2026-02-11T11:15:21.208Z"
+    },
+    "data-engineering-ai-ml": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-ai-ml/SKILL.md",
+      "skillFolderHash": "25b0b85e2d440e11e100a33f68ec833fee50a6dd",
+      "installedAt": "2026-02-11T10:08:23.781Z",
+      "updatedAt": "2026-02-11T11:15:21.253Z"
+    },
+    "data-engineering-best-practices": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-best-practices/SKILL.md",
+      "skillFolderHash": "5b60ab03ddc9c3f2577817af2c46024fe29ef95a",
+      "installedAt": "2026-02-11T10:08:23.828Z",
+      "updatedAt": "2026-02-11T11:15:21.298Z"
+    },
+    "data-engineering-catalogs": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-catalogs/SKILL.md",
+      "skillFolderHash": "45225cb78ff3379f8435343a61a4bf9b59f2b714",
+      "installedAt": "2026-02-11T10:08:23.872Z",
+      "updatedAt": "2026-02-11T11:15:21.340Z"
+    },
+    "data-engineering-core": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-core/SKILL.md",
+      "skillFolderHash": "79566ca329246cafea2d2b3ed63bd76eac3f67ed",
+      "installedAt": "2026-02-11T10:08:23.916Z",
+      "updatedAt": "2026-02-11T11:15:21.386Z"
+    },
+    "data-engineering-observability": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-observability/SKILL.md",
+      "skillFolderHash": "f2f3c2c6de804a06744e29c7e000d58a504b0377",
+      "installedAt": "2026-02-11T10:08:23.967Z",
+      "updatedAt": "2026-02-11T11:15:21.430Z"
+    },
+    "data-engineering-orchestration": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-orchestration/SKILL.md",
+      "skillFolderHash": "3ee5f7dbae73c8eb359133f89f5b588026331504",
+      "installedAt": "2026-02-11T10:08:24.017Z",
+      "updatedAt": "2026-02-11T11:15:21.474Z"
+    },
+    "data-engineering-quality": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-quality/SKILL.md",
+      "skillFolderHash": "94fb7bc8e91cb7f5d4a3acb77a1ef3d6b34cf93d",
+      "installedAt": "2026-02-11T10:08:24.065Z",
+      "updatedAt": "2026-02-11T11:15:21.522Z"
+    },
+    "data-engineering-storage-authentication": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-storage-authentication/SKILL.md",
+      "skillFolderHash": "188825f2d1eb23d0cd834799b2bf5285175f3ef0",
+      "installedAt": "2026-02-11T10:08:24.117Z",
+      "updatedAt": "2026-02-11T11:15:21.567Z"
+    },
+    "data-engineering-storage-formats": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-storage-formats/SKILL.md",
+      "skillFolderHash": "1642ea7eaa38e5e473d08677fe6eb99c7f072afb",
+      "installedAt": "2026-02-11T10:08:24.162Z",
+      "updatedAt": "2026-02-11T11:15:21.612Z"
+    },
+    "data-engineering-storage-lakehouse": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-storage-lakehouse/SKILL.md",
+      "skillFolderHash": "7b271cae413cda3514ef1b87794f8bbdd5413a35",
+      "installedAt": "2026-02-11T10:08:24.213Z",
+      "updatedAt": "2026-02-11T11:15:21.656Z"
+    },
+    "data-engineering-storage-remote-access": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-storage-remote-access/SKILL.md",
+      "skillFolderHash": "19ba9a59afe1cbc7d68498fe7e7ab928d971e050",
+      "installedAt": "2026-02-11T10:08:24.261Z",
+      "updatedAt": "2026-02-11T11:15:21.700Z"
+    },
+    "data-engineering-storage-remote-access-integrations-delta-lake": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-storage-remote-access-integrations-delta-lake/SKILL.md",
+      "skillFolderHash": "73e0c738db7a5fa6e5524f7538eb4f6ec2d232a9",
+      "installedAt": "2026-02-11T10:08:24.312Z",
+      "updatedAt": "2026-02-11T11:15:21.743Z"
+    },
+    "data-engineering-storage-remote-access-integrations-duckdb": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-storage-remote-access-integrations-duckdb/SKILL.md",
+      "skillFolderHash": "59d3935ad3ea59f76f0870ee80d9255759c59721",
+      "installedAt": "2026-02-11T10:08:24.358Z",
+      "updatedAt": "2026-02-11T11:15:21.789Z"
+    },
+    "data-engineering-storage-remote-access-integrations-iceberg": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-storage-remote-access-integrations-iceberg/SKILL.md",
+      "skillFolderHash": "11509824dd60c3e4c03e38839d0988c4439113ee",
+      "installedAt": "2026-02-11T10:08:24.408Z",
+      "updatedAt": "2026-02-11T11:15:21.834Z"
+    },
+    "data-engineering-storage-remote-access-integrations-pandas": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-storage-remote-access-integrations-pandas/SKILL.md",
+      "skillFolderHash": "7101686a46946d2735fa59f3d6e64ecf98ad53e0",
+      "installedAt": "2026-02-11T10:08:24.455Z",
+      "updatedAt": "2026-02-11T11:15:21.879Z"
+    },
+    "data-engineering-storage-remote-access-integrations-polars": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-storage-remote-access-integrations-polars/SKILL.md",
+      "skillFolderHash": "fc2f0f88841fad2fd7678aa14aa81bdb61c79588",
+      "installedAt": "2026-02-11T10:08:24.501Z",
+      "updatedAt": "2026-02-11T11:15:21.931Z"
+    },
+    "data-engineering-storage-remote-access-integrations-pyarrow": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-storage-remote-access-integrations-pyarrow/SKILL.md",
+      "skillFolderHash": "bc3aa6e8a20e95cb4c4705aa4cfce596e97e2203",
+      "installedAt": "2026-02-11T10:08:24.550Z",
+      "updatedAt": "2026-02-11T11:15:21.973Z"
+    },
+    "data-engineering-storage-remote-access-libraries-fsspec": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-storage-remote-access-libraries-fsspec/SKILL.md",
+      "skillFolderHash": "a169b850ed927e20136ac9be11e0a5989c44f059",
+      "installedAt": "2026-02-11T10:08:24.597Z",
+      "updatedAt": "2026-02-11T11:15:22.016Z"
+    },
+    "data-engineering-storage-remote-access-libraries-obstore": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-storage-remote-access-libraries-obstore/SKILL.md",
+      "skillFolderHash": "5b49e733ae1cdd9a15336333ca986e46633a69fd",
+      "installedAt": "2026-02-11T10:08:24.648Z",
+      "updatedAt": "2026-02-11T11:15:22.065Z"
+    },
+    "data-engineering-storage-remote-access-libraries-pyarrow-fs": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-storage-remote-access-libraries-pyarrow-fs/SKILL.md",
+      "skillFolderHash": "c58ab3334d9391013e63adeb12f2f75340f9e3c7",
+      "installedAt": "2026-02-11T10:08:24.696Z",
+      "updatedAt": "2026-02-11T11:15:22.116Z"
+    },
+    "data-engineering-streaming": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-engineering-streaming/SKILL.md",
+      "skillFolderHash": "dfb2f76a17a544365a11ece7c0e08e98d8b67a5d",
+      "installedAt": "2026-02-11T10:08:24.748Z",
+      "updatedAt": "2026-02-11T11:15:22.168Z"
+    },
+    "data-science-eda": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-science-eda/SKILL.md",
+      "skillFolderHash": "b2f8559023a5a7e39c8f9bd7a84cf29c59f9a93b",
+      "installedAt": "2026-02-11T10:08:24.793Z",
+      "updatedAt": "2026-02-11T11:15:22.215Z"
+    },
+    "data-science-feature-engineering": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-science-feature-engineering/SKILL.md",
+      "skillFolderHash": "c58375c72d81576c6149ff4e80501c1bc6a9a738",
+      "installedAt": "2026-02-11T10:08:24.840Z",
+      "updatedAt": "2026-02-11T11:15:22.259Z"
+    },
+    "data-science-interactive-apps": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-science-interactive-apps/SKILL.md",
+      "skillFolderHash": "d6edefaa338787165dc1726ad1737b57d878d936",
+      "installedAt": "2026-02-11T10:08:24.882Z",
+      "updatedAt": "2026-02-11T11:15:22.302Z"
+    },
+    "data-science-model-evaluation": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-science-model-evaluation/SKILL.md",
+      "skillFolderHash": "c8510dadb6f3aaa25c89a8233fd9bac052e291c5",
+      "installedAt": "2026-02-11T10:08:24.943Z",
+      "updatedAt": "2026-02-11T11:15:22.349Z"
+    },
+    "data-science-notebooks": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-science-notebooks/SKILL.md",
+      "skillFolderHash": "51887d388d5b00d4f4054bd776028f513fc4f6b3",
+      "installedAt": "2026-02-11T10:08:24.991Z",
+      "updatedAt": "2026-02-11T11:15:22.393Z"
+    },
+    "data-science-visualization": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/data-science-visualization/SKILL.md",
+      "skillFolderHash": "a45b2a6d584b14b05c8209d519b5a4d81b858a7c",
+      "installedAt": "2026-02-11T10:08:25.037Z",
+      "updatedAt": "2026-02-11T11:15:22.439Z"
+    },
+    "flowerpower": {
+      "source": "legout/data-platform-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/legout/data-platform-agent-skills.git",
+      "skillPath": "skills/flowerpower/SKILL.md",
+      "skillFolderHash": "",
+      "installedAt": "2026-02-11T10:08:25.084Z",
+      "updatedAt": "2026-02-11T11:15:22.497Z"
+    },
+    "xlsx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/xlsx/SKILL.md",
+      "skillFolderHash": "f5fb1cdb7993b2feee8367e983e9d4d58d2eedd4",
+      "pluginName": "document-skills",
+      "installedAt": "2026-03-10T10:31:43.890Z",
+      "updatedAt": "2026-03-13T18:31:38.794Z"
+    },
+    "docx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/docx/SKILL.md",
+      "skillFolderHash": "a0d216202f9793a78da44cf96aabe48f42e627ac",
+      "pluginName": "document-skills",
+      "installedAt": "2026-03-10T10:32:06.978Z",
+      "updatedAt": "2026-03-13T18:32:35.027Z"
+    },
+    "skill-creator": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/skill-creator/SKILL.md",
+      "skillFolderHash": "98a510d1cfef9f82c3b1eec200229ca68725e613",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-10T10:32:24.832Z",
+      "updatedAt": "2026-03-10T10:32:24.832Z"
+    },
+    "chrome-cdp": {
+      "source": "pasky/chrome-cdp-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/pasky/chrome-cdp-skill.git",
+      "skillPath": "skills/chrome-cdp/SKILL.md",
+      "skillFolderHash": "4268904954a42efd9b977393b89d3f580600e2db",
+      "installedAt": "2026-03-13T12:27:36.939Z",
+      "updatedAt": "2026-04-02T10:15:51.895Z"
+    },
+    "polars": {
+      "source": "davila7/claude-code-templates",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/davila7/claude-code-templates.git",
+      "skillPath": "cli-tool/components/skills/scientific/polars/SKILL.md",
+      "skillFolderHash": "952f58904722001c9b2dcb3647d14dfeb8635062",
+      "installedAt": "2026-03-13T18:00:52.919Z",
+      "updatedAt": "2026-03-13T19:14:43.994Z"
+    },
+    "hf-cli": {
+      "source": "huggingface/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/huggingface/skills.git",
+      "skillPath": "skills/hf-cli/SKILL.md",
+      "skillFolderHash": "740a113df66bd26dd8e455418a6b4c560421e4b8",
+      "installedAt": "2026-03-13T18:14:44.844Z",
+      "updatedAt": "2026-04-02T10:15:54.024Z"
+    },
+    "datastar": {
+      "source": "maragudk/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/maragudk/skills.git",
+      "skillPath": "datastar/SKILL.md",
+      "skillFolderHash": "f1d55e8b64f4e524aeb85f46ee0ecbcc90fdb871",
+      "installedAt": "2026-03-13T18:15:14.460Z",
+      "updatedAt": "2026-03-13T18:15:14.460Z"
+    },
+    "starhtml": {
+      "source": "renatocaliari/starhtml-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/renatocaliari/starhtml-skill.git",
+      "skillPath": "skills/starhtml/SKILL.md",
+      "skillFolderHash": "f0fbd593073f598744bea88c74b27a30b979020b",
+      "installedAt": "2026-03-13T18:16:38.647Z",
+      "updatedAt": "2026-03-13T18:16:38.647Z"
+    },
+    "slidev": {
+      "source": "antfu/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/antfu/skills.git",
+      "skillPath": "skills/slidev/SKILL.md",
+      "skillFolderHash": "484dbdd960c714d80b5ddca7056cb788b0afbfe1",
+      "installedAt": "2026-03-13T18:19:30.092Z",
+      "updatedAt": "2026-04-02T10:15:56.301Z"
+    },
+    "frontend-slides": {
+      "source": "zarazhangrui/frontend-slides",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/zarazhangrui/frontend-slides.git",
+      "skillPath": "SKILL.md",
+      "skillFolderHash": "fbf2c17fa4356e7802b055a3626c7dd6a5d509ea",
+      "installedAt": "2026-03-13T18:25:55.202Z",
+      "updatedAt": "2026-04-02T10:15:58.154Z"
+    },
+    "agent-md-refactor": {
+      "source": "softaworks/agent-toolkit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/softaworks/agent-toolkit.git",
+      "skillPath": "skills/agent-md-refactor/SKILL.md",
+      "skillFolderHash": "89a8fede359cb48c66f1af44c5aa8fc07b82cded",
+      "installedAt": "2026-03-13T18:27:14.027Z",
+      "updatedAt": "2026-03-13T18:27:31.313Z"
+    },
+    "exa-search": {
+      "source": "BenedictKing/exa-search",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/BenedictKing/exa-search.git",
+      "skillPath": ".claude/skills/exa-search/SKILL.md",
+      "skillFolderHash": "0acec55b8e77cf1e7136df08ed21796291cd8abb",
+      "installedAt": "2026-03-13T18:29:24.763Z",
+      "updatedAt": "2026-03-13T18:29:24.763Z"
+    },
+    "doc-coauthoring": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/doc-coauthoring/SKILL.md",
+      "skillFolderHash": "d9df960e61fe2bafe9183e37de6f9f6b73b74087",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-13T18:31:12.774Z",
+      "updatedAt": "2026-03-13T18:31:12.774Z"
+    },
+    "pdf": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/pdf/SKILL.md",
+      "skillFolderHash": "6369f4649de69bd6857c9bc3b058a77206009238",
+      "pluginName": "document-skills",
+      "installedAt": "2026-03-13T18:32:11.747Z",
+      "updatedAt": "2026-03-13T18:32:11.747Z"
+    },
+    "pptx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/pptx/SKILL.md",
+      "skillFolderHash": "10b3d70962e489867ddfee7da92f7da6b0eccc4f",
+      "pluginName": "document-skills",
+      "installedAt": "2026-03-13T18:32:26.321Z",
+      "updatedAt": "2026-03-13T18:32:26.321Z"
+    },
+    "panel": {
+      "source": "marcskovmadsen/holoviz-mcp",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/marcskovmadsen/holoviz-mcp.git",
+      "skillPath": "skills/panel/SKILL.md",
+      "skillFolderHash": "81395a0bbc414c447ed7fe7fb4a7a0417a819210",
+      "installedAt": "2026-03-13T18:33:17.991Z",
+      "updatedAt": "2026-03-13T18:33:17.991Z"
+    },
+    "hvplot": {
+      "source": "marcskovmadsen/holoviz-mcp",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/marcskovmadsen/holoviz-mcp.git",
+      "skillPath": "skills/hvplot/SKILL.md",
+      "skillFolderHash": "8227e8d1f13117fb96e3eaf2cf232fac7436aead",
+      "installedAt": "2026-03-13T18:33:31.040Z",
+      "updatedAt": "2026-03-13T18:33:31.040Z"
+    },
+    "panel-material-ui": {
+      "source": "marcskovmadsen/holoviz-mcp",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/marcskovmadsen/holoviz-mcp.git",
+      "skillPath": "skills/panel-material-ui/SKILL.md",
+      "skillFolderHash": "42c2c479fe6c6d70d5aa6b421b4918f392127cfa",
+      "installedAt": "2026-03-13T18:33:46.475Z",
+      "updatedAt": "2026-03-13T18:33:46.475Z"
+    },
+    "panel-holoviews": {
+      "source": "marcskovmadsen/holoviz-mcp",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/marcskovmadsen/holoviz-mcp.git",
+      "skillPath": "skills/panel-holoviews/SKILL.md",
+      "skillFolderHash": "b2683dad606574c7c034dab5e0dfb22d1f8ba868",
+      "installedAt": "2026-03-13T18:34:28.022Z",
+      "updatedAt": "2026-03-13T18:34:28.022Z"
+    },
+    "holoviews": {
+      "source": "marcskovmadsen/holoviz-mcp",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/marcskovmadsen/holoviz-mcp.git",
+      "skillPath": "skills/holoviews/SKILL.md",
+      "skillFolderHash": "f4ecacb70414b02821f1b4ae22c28739c8ccbd06",
+      "installedAt": "2026-03-13T18:34:40.826Z",
+      "updatedAt": "2026-03-13T18:34:40.826Z"
+    },
+    "panel-custom-components": {
+      "source": "marcskovmadsen/holoviz-mcp",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/marcskovmadsen/holoviz-mcp.git",
+      "skillPath": "skills/panel-custom-components/SKILL.md",
+      "skillFolderHash": "0a6738ee6569f5f0b81b9255e62f5dac42d12f71",
+      "installedAt": "2026-03-13T18:34:58.855Z",
+      "updatedAt": "2026-03-13T18:34:58.855Z"
+    },
+    "duckdb": {
+      "source": "silvainfm/claude-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/silvainfm/claude-skills.git",
+      "skillPath": "duckdb/SKILL.md",
+      "skillFolderHash": "495c7acf9abf315b5499db5e87d8a8be7b42e8f6",
+      "installedAt": "2026-03-13T18:38:18.133Z",
+      "updatedAt": "2026-03-13T18:38:18.133Z"
+    },
+    "developing-with-streamlit": {
+      "source": "streamlit/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/streamlit/agent-skills.git",
+      "skillPath": "developing-with-streamlit/SKILL.md",
+      "skillFolderHash": "169f972c6518c26609492bb7a3de0b6ec1e5f59e",
+      "installedAt": "2026-03-13T18:39:00.128Z",
+      "updatedAt": "2026-03-13T18:39:00.128Z"
+    },
+    "streamlit-to-marimo": {
+      "source": "marimo-team/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/marimo-team/skills.git",
+      "skillPath": "skills/streamlit-to-marimo/SKILL.md",
+      "skillFolderHash": "daa3c9a275acb667c52f7d1d8d858d3c01da0047",
+      "installedAt": "2026-03-13T18:39:36.904Z",
+      "updatedAt": "2026-03-13T18:39:36.904Z"
+    },
+    "slidev-styling": {
+      "source": "yoanbernabeu/slidev-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/yoanbernabeu/slidev-skills.git",
+      "skillPath": "skills/customization/slidev-styling/SKILL.md",
+      "skillFolderHash": "823426e339736bda9819ed009ee7153a2c58cd17",
+      "pluginName": "slidev-complete",
+      "installedAt": "2026-03-13T18:42:55.763Z",
+      "updatedAt": "2026-03-13T18:42:55.763Z"
+    },
+    "slidev-themes": {
+      "source": "yoanbernabeu/slidev-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/yoanbernabeu/slidev-skills.git",
+      "skillPath": "skills/customization/slidev-themes/SKILL.md",
+      "skillFolderHash": "fb31b3394bc34393dba36128b838603e10dee1c8",
+      "pluginName": "slidev-complete",
+      "installedAt": "2026-03-13T18:43:33.105Z",
+      "updatedAt": "2026-03-13T18:43:33.105Z"
+    },
+    "html-slides": {
+      "source": "claude-office-skills/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/claude-office-skills/skills.git",
+      "skillPath": "html-slides/SKILL.md",
+      "skillFolderHash": "e02953a5e3a1f6544e076007880ecd85a65d38f3",
+      "installedAt": "2026-03-13T18:45:34.157Z",
+      "updatedAt": "2026-03-13T18:45:34.157Z"
+    },
+    "slides-generator": {
+      "source": "bmad-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/bmad-labs/skills.git",
+      "skillPath": "skills/slides-generator/SKILL.md",
+      "skillFolderHash": "37d7ea0e9109c534b28d97dd244bf8f8ecab6ad8",
+      "installedAt": "2026-03-13T18:56:07.080Z",
+      "updatedAt": "2026-03-13T18:56:07.080Z"
+    },
+    "table-extractor": {
+      "source": "claude-office-skills/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/claude-office-skills/skills.git",
+      "skillPath": "table-extractor/SKILL.md",
+      "skillFolderHash": "aefc7ebc67a69672578b24877af888dde238fe8c",
+      "installedAt": "2026-03-13T18:57:30.004Z",
+      "updatedAt": "2026-03-13T18:57:30.004Z"
+    },
+    "ocr-document-processor": {
+      "source": "dkyazzentwatwa/chatgpt-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dkyazzentwatwa/chatgpt-skills.git",
+      "skillPath": "ocr-document-processor/SKILL.md",
+      "skillFolderHash": "6ac027d53c86c69364bb82060ca0ea5e20451e9e",
+      "installedAt": "2026-03-13T19:04:48.839Z",
+      "updatedAt": "2026-03-13T19:04:48.839Z"
+    },
+    "pdf-toolkit": {
+      "source": "dkyazzentwatwa/chatgpt-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dkyazzentwatwa/chatgpt-skills.git",
+      "skillPath": "pdf-toolkit/SKILL.md",
+      "skillFolderHash": "5100d9195a32b9241e8a2ec68f09b52c3c34164f",
+      "installedAt": "2026-03-13T19:05:02.002Z",
+      "updatedAt": "2026-03-13T19:05:02.002Z"
+    },
+    "smart-ocr": {
+      "source": "claude-office-skills/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/claude-office-skills/skills.git",
+      "skillPath": "smart-ocr/SKILL.md",
+      "skillFolderHash": "e13bd7e914c0ef114d236c5e9b5898a188475942",
+      "installedAt": "2026-03-13T19:11:42.543Z",
+      "updatedAt": "2026-03-13T19:11:42.543Z"
+    },
+    "image-ocr": {
+      "source": "fearovex/claude-config",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/fearovex/claude-config.git",
+      "skillPath": "skills/image-ocr/SKILL.md",
+      "skillFolderHash": "a40c7ccfe70cc275b9298868db278006b2cb199d",
+      "installedAt": "2026-03-13T19:11:51.801Z",
+      "updatedAt": "2026-03-13T19:11:51.801Z"
+    },
+    "plotly": {
+      "source": "davila7/claude-code-templates",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/davila7/claude-code-templates.git",
+      "skillPath": "cli-tool/components/skills/scientific/plotly/SKILL.md",
+      "skillFolderHash": "312c39e4bc74387f627140b2b2d2cdf35bd7c7e3",
+      "installedAt": "2026-03-13T19:13:47.377Z",
+      "updatedAt": "2026-03-13T19:13:47.377Z"
+    },
+    "api2cli": {
+      "source": "melvynx/api2cli",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/melvynx/api2cli.git",
+      "skillPath": "skills/api2cli/SKILL.md",
+      "skillFolderHash": "812696b81b3e2884c0b1946dc2c456ac5bf3309b",
+      "installedAt": "2026-03-14T10:46:39.062Z",
+      "updatedAt": "2026-04-02T10:16:00.715Z"
+    },
+    "modern-python": {
+      "source": "trailofbits/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/trailofbits/skills.git",
+      "skillPath": "plugins/modern-python/skills/modern-python/SKILL.md",
+      "skillFolderHash": "8679b9b2269f4320d40c4f0bea5d71fb6812b483",
+      "installedAt": "2026-03-14T23:28:14.365Z",
+      "updatedAt": "2026-03-14T23:28:14.365Z"
+    },
+    "marp-slide": {
+      "source": "softaworks/agent-toolkit",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/softaworks/agent-toolkit.git",
+      "skillPath": "skills/marp-slide/SKILL.md",
+      "skillFolderHash": "fcba767a6ab48cbe297d752d83c7987f61eabdb8",
+      "installedAt": "2026-03-16T07:48:52.977Z",
+      "updatedAt": "2026-03-16T07:48:52.977Z"
+    },
+    "commit": {
+      "source": "mitsuhiko/agent-stuff",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mitsuhiko/agent-stuff.git",
+      "skillPath": "skills/commit/SKILL.md",
+      "skillFolderHash": "b605d061ba8debee0a20269a1b967bdc715a7c1b",
+      "installedAt": "2026-03-23T15:46:07.817Z",
+      "updatedAt": "2026-03-23T15:46:07.817Z"
+    },
+    "frontend-design": {
+      "source": "mitsuhiko/agent-stuff",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mitsuhiko/agent-stuff.git",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "skillFolderHash": "f27c7ee2304a7a15f20654f533d6d878acdf488a",
+      "installedAt": "2026-03-23T15:47:23.546Z",
+      "updatedAt": "2026-03-23T15:47:23.546Z"
+    },
+    "summarize": {
+      "source": "mitsuhiko/agent-stuff",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mitsuhiko/agent-stuff.git",
+      "skillPath": "skills/summarize/SKILL.md",
+      "skillFolderHash": "fe35bfe1f6508105f2baf70cd71b6351c0b0bfe4",
+      "installedAt": "2026-03-23T15:50:32.201Z",
+      "updatedAt": "2026-03-23T15:50:32.201Z"
+    },
+    "update-changelog": {
+      "source": "mitsuhiko/agent-stuff",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mitsuhiko/agent-stuff.git",
+      "skillPath": "skills/update-changelog/SKILL.md",
+      "skillFolderHash": "9eb89b2db9e40c45dd75971821542f02d9f1c454",
+      "installedAt": "2026-03-23T15:51:08.795Z",
+      "updatedAt": "2026-03-23T15:51:08.795Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "cline",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-cli",
+    "opencode",
+    "warp"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "toolPrefix": "short"
+  },
+  "mcpServers": {
+    "grep_app": {
+      "url": "https://mcp.grep.app"
+    },
+    "zai-web-reader": {
+      "url": "https://api.z.ai/api/mcp/web_reader/mcp",
+      "auth": "bearer",
+      "headers": {
+        "Authorization": "Bearer __REQUIRED__"
+      }
+    },
+    "zai-vision": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@z_ai/mcp-server"
+      ],
+      "env": {
+        "Z_AI_API_KEY": "__REQUIRED__",
+        "Z_AI_MODE": "ZAI"
+      }
+    }
+  }
+}

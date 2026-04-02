@@ -1,0 +1,36 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local secret-bearing config
+private/
+
+# Auth (contains secrets)
+auth.json
+
+# Session data (machine-specific, large)
+sessions/
+history/
+run-history.jsonl
+pi-crash.log
+
+# Caches (auto-generated)
+mcp-cache.json
+mcp-npx-cache.json
+
+# Backups created by restore.sh
+*.bak
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temp files
+*.tmp
+*.log
+
+# Precompiled binaries (install separately, e.g. brew install fd)
+bin/fd

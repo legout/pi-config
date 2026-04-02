@@ -1,0 +1,27 @@
+{
+  "geminiApiKey": "__REQUIRED__",
+  "provider": "gemini",
+  "chromeProfile": "Profile 2",
+  "searchModel": "gemini-2.5-flash",
+  "curateWindow": 10,
+  "autoFilter": true,
+  "githubClone": {
+    "enabled": true,
+    "maxRepoSizeMB": 350,
+    "cloneTimeoutSeconds": 30,
+    "clonePath": "/tmp/pi-github-repos"
+  },
+  "youtube": {
+    "enabled": true,
+    "preferredModel": "gemini-3-flash-preview"
+  },
+  "video": {
+    "enabled": true,
+    "preferredModel": "gemini-3-flash-preview",
+    "maxSizeMB": 50
+  },
+  "shortcuts": {
+    "curate": "ctrl+shift+s",
+    "activity": "ctrl+shift+w"
+  }
+}

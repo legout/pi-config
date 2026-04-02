@@ -1,0 +1,35 @@
+{
+  "skill_name": "siemens-brandville",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a Siemens presentation about our digital transformation strategy. The presentation should cover the current IT situation, challenges we're facing, and our recommended 3-phase approach for 2026. Make sure to follow Siemens brand guidelines.",
+      "expected_output": "A presentation structure with appropriate Siemens Brandville layouts, Deep Blue backgrounds, Bold Green headlines, and mandatory slides including Key Takeaways, Quote, and Contact. Should use SCQA framework.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I'm creating an executive summary presentation for Siemens leadership about Q4 results. What layout should I use for the title slide, and what colors should I use for text on a dark background?",
+      "expected_output": "Recommendations for title slide layouts (Deep Blue with appropriate motif), title sizing based on character count, and text colors (Bold Green for headlines, Light Sand for body text).",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I need to create a Key Takeaways slide for my Siemens presentation about sustainability initiatives. What should I include and what layout should I use?",
+      "expected_output": "Guidance on Key Takeaways slide structure: 3 key findings, decision context, pros and cons. Layout: Key Takeaways (ph12-ph14 for points, ph15 for context, ph16 for pros, ph17 for cons).",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "My title is 'Implementation of Xcelerator Portfolio Across Manufacturing Sites' - what font size should I use?",
+      "expected_output": "40pt font size recommendation since the title has 54 characters (>35), making it a 'long' title.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Generate a proper Siemens footer for a presentation by Anna Schmidt from the Digitalization department, dated today, marked as Public.",
+      "expected_output": "Formatted footer: 'Public | © Siemens 2026 | Anna Schmidt | Digitalization | DD.MM.YYYY' (with today's date).",
+      "files": []
+    }
+  ]
+}

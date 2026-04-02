@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "skills": {
+    "accessing-cloud-storage": {
+      "source": "legout/data-agent-skills",
+      "sourceType": "github",
+      "computedHash": "b234bece7716b2334e35db40f27f269903433ca6117ae74e40cc05e8f65a1eca"
+    },
+    "analyzing-data": {
+      "source": "legout/data-agent-skills",
+      "sourceType": "github",
+      "computedHash": "fe508fc7fef0463131cb159749e16514ba277a3b0a142b60e60bde4db863bad8"
+    },
+    "assuring-data-pipelines": {
+      "source": "legout/data-agent-skills",
+      "sourceType": "github",
+      "computedHash": "05cccc92d4824db51cb7e2797d4969e51ac4cbe4b807d2a84cc93f9bb2b748e8"
+    },
+    "building-data-apps": {
+      "source": "legout/data-agent-skills",
+      "sourceType": "github",
+      "computedHash": "9d983effd9df76001b78981d80139a24e5b8522b067464d47384e8d70aec03d2"
+    },
+    "building-data-pipelines": {
+      "source": "legout/data-agent-skills",
+      "sourceType": "github",
+      "computedHash": "6a5f08b3edec35d1df3afbb01a1cf7097b6cff9fc4286035e37151ef1850e53e"
+    },
+    "building-streaming-pipelines": {
+      "source": "legout/data-agent-skills",
+      "sourceType": "github",
+      "computedHash": "4e94fea1f37a9151a5327fd48d2894c7c8bc1126826d0e6b79bb9a1801ee51b2"
+    },
+    "designing-data-storage": {
+      "source": "legout/data-agent-skills",
+      "sourceType": "github",
+      "computedHash": "3e218048b0150db0df3d780dbda3b2de24e665ad4f358ab8a80ae95c4f5f7bfd"
+    },
+    "engineering-ai-pipelines": {
+      "source": "legout/data-agent-skills",
+      "sourceType": "github",
+      "computedHash": "b4c6dd7479198b707f93cbd93dd63fee96adddf6f397965f8615da082905a775"
+    },
+    "engineering-ml-features": {
+      "source": "legout/data-agent-skills",
+      "sourceType": "github",
+      "computedHash": "8dcfe3ba451ececbb1785671750bbed58b3bd26f625e81d2a4d8b455b5dc8c08"
+    },
+    "evaluating-ml-models": {
+      "source": "legout/data-agent-skills",
+      "sourceType": "github",
+      "computedHash": "bee050b292d8a7165d774e2a6747665207c3c85b8696a90cc83c32df69de4494"
+    },
+    "managing-data-catalogs": {
+      "source": "legout/data-agent-skills",
+      "sourceType": "github",
+      "computedHash": "01d6a1e2ee6a2dff979c91b2800e7481464ec607a774e11eba79eabb8ade5d23"
+    },
+    "orchestrating-data-pipelines": {
+      "source": "legout/data-agent-skills",
+      "sourceType": "github",
+      "computedHash": "82c12c8950cfc880bbf9a104bfc11022965d3142027526be5f524b1d9fc8bbb6"
+    },
+    "using-flowerpower": {
+      "source": "legout/data-agent-skills",
+      "sourceType": "github",
+      "computedHash": "598bb7ecc650a0a5769c6f118c1b0da4bced971d5345fad0d826f358490e920e"
+    },
+    "working-in-notebooks": {
+      "source": "legout/data-agent-skills",
+      "sourceType": "github",
+      "computedHash": "8f484f5b907fc4c80a1cd2c2410d7b7ebcc6f15f59733e420bdc368b5995a2a0"
+    }
+  }
+}
