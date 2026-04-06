@@ -10,13 +10,10 @@
     "github-copilot/claude*",
     "github-copilot/gemini*",
     "openai-codex/*",
-    "google-antigravity/*",
     "siemens/*",
-    "chutes/**",
     "kimi-coding/*",
     "openrouter/*",
     "stepfun/*",
-    "zai-org/*",
     "ollama/*"
   ],
   "lastChangelogVersion": "0.64.0",

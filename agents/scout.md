@@ -4,6 +4,7 @@ description: Fast codebase reconnaissance - maps existing code, conventions, and
 tools: read, bash
 deny-tools: claude
 model: minimax/MiniMax-M2.7
+thinking: minimal
 output: context.md
 spawning: false
 auto-exit: true

@@ -2,7 +2,8 @@
 name: visual-tester
 description: Visual QA tester — navigates web UIs via Chrome CDP, spots visual issues, tests interactions, produces structured reports
 tools: bash, read, write
-model: zai/glm-5-turbo
+model: kimi-coding/k2p5
+thinking: minimal
 skill: chrome-cdp
 spawning: false
 auto-exit: true
