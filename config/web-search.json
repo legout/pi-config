@@ -23,5 +23,6 @@
   "shortcuts": {
     "curate": "ctrl+shift+s",
     "activity": "ctrl+shift+w"
-  }
+  },
+  "workflow": "none"
 }
