@@ -1,14 +1,14 @@
-# Secrets handling
+# Secrets Handling
 
-Tracked config in this repo is sanitized.
+This file is for internal reference. For user-facing documentation, see [README.md](../README.md#required-api-keys).
 
-## Files with placeholders
+## Files with `__REQUIRED__` placeholders
 
-These tracked files may contain `__REQUIRED__` placeholders:
-
-- `config/models.json`
-- `config/mcp.json`
-- `config/web-search.json`
+| Tracked file | Placeholders |
+|---|---|
+| `config/models.json` | `providers.openrouter.apiKey`, `providers.siemens.apiKey`, `providers.zai.apiKey` |
+| `config/mcp.json` | `mcpServers.zai-web-reader.headers.Authorization`, `mcpServers.zai-vision.env.Z_AI_API_KEY` |
+| `config/web-search.json` | `geminiApiKey` |
 
 ## Local-only secret copies
 
@@ -18,35 +18,21 @@ When you run `./sync.sh export` on a configured machine, real secret-bearing cop
 - `private/mcp.json`
 - `private/web-search.json`
 
-`private/` is gitignored and never committed.
+`private/` is gitignored and **must never** be committed.
 
 ## Bootstrap helper
 
-Use `./bootstrap-secrets.sh` to manage local secret-bearing config:
-
 ```bash
-./bootstrap-secrets.sh status
-./bootstrap-secrets.sh capture
-./bootstrap-secrets.sh install
+./bootstrap-secrets.sh status    # Check state
+./bootstrap-secrets.sh capture   # Copy live → private/
+./bootstrap-secrets.sh install   # Copy private/ → live
 ```
-
-### Typical flow
-
-On a machine that already has working pi config:
-
-1. `./bootstrap-secrets.sh capture`
-2. keep `private/` local or sync it with your own secure file-sync method
-
-After a restore or reset on that same machine:
-
-1. `./restore.sh`
-2. `./bootstrap-secrets.sh install`
 
 ## Restore behavior
 
-`./restore.sh` prefers local `private/*.json` files when present.
+`restore.sh` prefers local `private/*.json` files when present.
 
-If `private/` is missing, restore uses the sanitized tracked config and prints warnings. In that case you must re-add secrets locally.
+If `private/` is missing, restore uses the sanitized tracked config and prints warnings. In that case you must re-add secrets locally (see README: [Setup on a Brand-New Machine](../README.md#setup-on-a-brand-new-machine)).
 
 ## Auth
 
