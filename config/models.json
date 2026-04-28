@@ -1,54 +1,5 @@
 {
   "providers": {
-    "ollama": {
-      "api": "openai-completions",
-      "apiKey": "none",
-      "baseUrl": "http://localhost:11434/v1",
-      "models": [
-        {
-          "contextWindow": 200000,
-          "id": "glm-5:cloud",
-          "input": [
-            "text"
-          ],
-          "maxTokens": 131072,
-          "name": "GLM-5",
-          "reasoning": true
-        },
-        {
-          "contextWindow": 204800,
-          "id": "minimax-m2.7:cloud",
-          "input": [
-            "text"
-          ],
-          "maxTokens": 131072,
-          "name": "MiniMax-M2.5",
-          "reasoning": true
-        },
-        {
-          "contextWindow": 256000,
-          "id": "qwen3.5:397b-cloud",
-          "input": [
-            "text",
-            "image"
-          ],
-          "maxTokens": 163840,
-          "name": "Qwen3.5-397B",
-          "reasoning": true
-        },
-        {
-          "contextWindow": 262144,
-          "id": "kimi-k2.5:cloud",
-          "input": [
-            "text",
-            "image"
-          ],
-          "maxTokens": 163840,
-          "name": "Kimi-K2.5",
-          "reasoning": true
-        }
-      ]
-    },
     "openrouter": {
       "api": "openai-completions",
       "apiKey": "__REQUIRED__",
@@ -66,6 +17,73 @@
         }
       ]
     },
+    "nvidia-nim": {
+      "api": "openai-completions",
+      "apiKey": "__REQUIRED__",
+      "baseUrl": "https://integrate.api.nvidia.com/v1",
+      "models": [
+        {
+          "contextWindow": 256000,
+          "id": "stepfun-ai/step-3.5-flash",
+          "input": [
+            "text"
+          ],
+          "maxTokens": 256000,
+          "name": "Step 3.5 Flash",
+          "reasoning": true,
+          "compat": {
+            "supportsDeveloperRole": false,
+            "maxTokensField": "max_tokens"
+          }
+        },
+        {
+          "contextWindow": 1000000,
+          "id": "deepseek-ai/deepseek-v4-flash",
+          "input": [
+            "text"
+          ],
+          "maxTokens": 1000000,
+          "name": "Deepseek V4 Flash",
+          "reasoning": true,
+          "compat": {
+            "supportsDeveloperRole": false,
+            "maxTokensField": "max_tokens",
+            "thinkingFormat": "deepseek",
+            "reasoningEffortMap": {
+              "minimal": "high",
+              "low": "high",
+              "medium": "high",
+              "high": "high",
+              "xhigh": "max"
+            },
+            "requiresReasoningContentOnAssistantMessages": true
+          }
+        },
+        {
+          "contextWindow": 1000000,
+          "id": "deepseek-ai/deepseek-v4-pro",
+          "input": [
+            "text"
+          ],
+          "maxTokens": 1000000,
+          "name": "Deepseek V4 Pro",
+          "reasoning": true,
+          "compat": {
+            "supportsDeveloperRole": false,
+            "maxTokensField": "max_tokens",
+            "thinkingFormat": "deepseek",
+            "reasoningEffortMap": {
+              "minimal": "high",
+              "low": "high",
+              "medium": "high",
+              "high": "high",
+              "xhigh": "max"
+            },
+            "requiresReasoningContentOnAssistantMessages": true
+          }
+        }
+      ]
+    },
     "siemens": {
       "api": "openai-completions",
       "apiKey": "__REQUIRED__",
@@ -76,101 +94,66 @@
       "models": [
         {
           "contextWindow": 202752,
-          "cost": {
-            "cacheRead": 0,
-            "cacheWrite": 0,
-            "input": 0,
-            "output": 0
-          },
+          "id": "glm-5-preview",
+          "input": [
+            "text"
+          ],
+          "maxTokens": 131072,
+          "name": "GLM 5.1 (Preview)",
+          "reasoning": true
+        },
+        {
+          "contextWindow": 202752,
           "id": "glm-5",
           "input": [
             "text"
           ],
           "maxTokens": 131072,
-          "name": "GLM 5",
+          "name": "GLM 5.1",
           "reasoning": true
         },
         {
-          "contextWindow": 131072,
-          "cost": {
-            "cacheRead": 0,
-            "cacheWrite": 0,
-            "input": 0,
-            "output": 0
-          },
-          "id": "gpt-oss-120b",
+          "contextWindow": 1000000,
+          "id": "deepseek-v4-flash",
           "input": [
             "text"
           ],
-          "maxTokens": 64000,
-          "name": "GPT OSS 120b",
-          "reasoning": true
+          "maxTokens": 384000,
+          "name": "Deepseek V4 Flash",
+          "reasoning": true,
+          "compat": {
+            "thinkingFormat": "deepseek",
+            "requiresReasoningContentOnAssistantMessages": true,
+            "reasoningEffortMap": {
+              "minimal": "high",
+              "low": "high",
+              "medium": "high",
+              "high": "max",
+              "xhigh": "max"
+            }
+          }
         },
         {
-          "contextWindow": 256000,
+          "contextWindow": 262144,
           "cost": {
             "cacheRead": 0,
             "cacheWrite": 0,
             "input": 0,
             "output": 0
           },
-          "id": "devstral-small-2-24b-instruct-2512",
+          "id": "qwen-3.6-27b",
           "input": [
             "text",
             "image"
           ],
           "maxTokens": 131072,
-          "name": "Devstral Small 2",
-          "reasoning": true
-        },
-        {
-          "contextWindow": 131072,
-          "cost": {
-            "cacheRead": 0,
-            "cacheWrite": 0,
-            "input": 0,
-            "output": 0
-          },
-          "id": "ministral-3-14b-instruct-2512",
-          "input": [
-            "text",
-            "image"
-          ],
-          "maxTokens": 131072,
-          "name": "Ministral 3 14B Instruct 2512",
-          "reasoning": true
+          "name": "Qwen3.6 27B",
+          "reasoning": true,
+          "compat": {
+            "thinkingFormat": "qwen-chat-template"
+          }
         }
       ]
-    },
-    "zai": {
-      "api": "openai-completions",
-      "baseUrl": "https://api.z.ai/api/coding/paas/v4",
-      "compat": {
-        "supportsDeveloperRole": false,
-        "thinkingFormat": "zai"
-      },
-      "models": [
-        {
-          "id": "glm-5.1",
-          "name": "GLM-5.1",
-          "reasoning": true,
-          "input": [
-            "text"
-          ],
-          "contextWindow": 202752
-        },
-        {
-          "id": "glm-5v-turbo",
-          "name": "GLM-5V-Turbo",
-          "reasoning": true,
-          "input": [
-            "text",
-            "image"
-          ],
-          "contextWindow": 202752
-        }
-      ],
-      "apiKey": "__REQUIRED__"
     }
   }
 }

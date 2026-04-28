@@ -6,7 +6,7 @@ This file is for internal reference. For user-facing documentation, see [README.
 
 | Tracked file | Placeholders |
 |---|---|
-| `config/models.json` | `providers.openrouter.apiKey`, `providers.siemens.apiKey`, `providers.zai.apiKey` |
+| `config/models.json` | `providers.openrouter.apiKey`, `providers.nvidia-nim.apiKey`, `providers.siemens.apiKey` |
 | `config/mcp.json` | `mcpServers.zai-web-reader.headers.Authorization`, `mcpServers.zai-vision.env.Z_AI_API_KEY` |
 | `config/web-search.json` | `geminiApiKey` |
 

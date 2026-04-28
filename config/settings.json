@@ -1,22 +1,23 @@
 {
   "defaultModel": "gpt-5.4",
   "defaultProvider": "github-copilot",
-  "defaultThinkingLevel": "high",
+  "defaultThinkingLevel": "medium",
   "enabledModels": [
     "minimax/*",
     "zai/*",
     "github-copilot/gpt-5*",
     "github-copilot/grok-code-fast-1",
     "github-copilot/claude*",
-    "github-copilot/gemini*",
     "openai-codex/*",
     "siemens/*",
     "kimi-coding/*",
     "openrouter/*",
     "stepfun/*",
-    "ollama/*"
+    "ollama/*",
+    "deepseek-ai/*",
+    "stepfun-ai/*"
   ],
-  "lastChangelogVersion": "0.64.0",
+  "lastChangelogVersion": "0.70.5",
   "lsp": {
     "hookMode": "edit_write"
   },
@@ -47,33 +48,6 @@
     },
     "npm:glimpseui",
     {
-      "source": "npm:mitsupi",
-      "extensions": [
-        "-pi-extensions/whimsical.ts"
-      ],
-      "skills": [
-        "-skills/anachb/SKILL.md",
-        "-skills/apple-mail/SKILL.md",
-        "-skills/ghidra/SKILL.md",
-        "-skills/oebb-scotty/SKILL.md",
-        "-skills/openscad/SKILL.md",
-        "-skills/sentry/SKILL.md",
-        "-skills/web-browser/SKILL.md",
-        "-skills/google-workspace/SKILL.md",
-        "-skills/librarian/SKILL.md",
-        "-skills/native-web-search/SKILL.md",
-        "-skills/pi-share/SKILL.md",
-        "+skills/frontend-design/SKILL.md",
-        "+skills/commit/SKILL.md",
-        "+skills/github/SKILL.md",
-        "+skills/mermaid/SKILL.md",
-        "+skills/summarize/SKILL.md",
-        "+skills/tmux/SKILL.md",
-        "+skills/update-changelog/SKILL.md",
-        "+skills/uv/SKILL.md"
-      ]
-    },
-    {
       "source": "npm:pi-cline-free-models",
       "extensions": [
         "-index.ts"
@@ -81,13 +55,33 @@
     },
     "npm:pi-mermaid",
     "npm:pi-fzf",
-    "git:github.com/mrexodia/kilo-pi-provider",
+    {
+      "source": "git:github.com/mrexodia/kilo-pi-provider",
+      "extensions": [
+        "+kilo.ts"
+      ]
+    },
     "git:github.com/jo-inc/pi-reflect",
-    "npm:pi-powerline-footer",
     "npm:pi-ask-user",
     "npm:pi-brain",
-    "git:github.com/HazAT/pi-interactive-subagents",
-    "git:github.com/legout/pi-ticket-flow"
+    "git:github.com/legout/pi-execflow",
+    "npm:pi-subagents",
+    "npm:pi-powerline-footer",
+    {
+      "source": "npm:mitsupi",
+      "extensions": [
+        "-extensions/go-to-bed.ts",
+        "-extensions/prompt-editor.ts",
+        "-extensions/whimsical.ts"
+      ],
+      "skills": [
+        "-skills/anachb/SKILL.md",
+        "-skills/ghidra/SKILL.md",
+        "-skills/librarian/SKILL.md",
+        "-skills/pi-share/SKILL.md"
+      ]
+    },
+    "npm:@baggiiiie/pi-rtk-rewrite"
   ],
   "permissionLevel": "bypassed",
   "reviewerLoop": {
@@ -139,7 +133,6 @@
     "-../../.agents/skills/skill-creator/SKILL.md",
     "-skills/slidev-styling/SKILL.md",
     "-skills/smart-ocr/SKILL.md",
-    "-skills/streamlit-to-marimo/SKILL.md",
     "-skills/table-extractor/SKILL.md",
     "-skills/template-skill/SKILL.md",
     "-skills/developing-with-streamlit/skills/using-streamlit-cli/SKILL.md",
@@ -147,8 +140,10 @@
     "-skills/developing-with-streamlit/skills/using-streamlit-layouts/SKILL.md",
     "-skills/developing-with-streamlit/skills/using-streamlit-markdown/SKILL.md",
     "-skills/developing-with-streamlit/skills/using-streamlit-session-state/SKILL.md",
-    "-skills/xlsx/SKILL.md",
-    "-skills/ralph-wiggum/SKILL.md"
+    "-skills/ralph-wiggum/SKILL.md",
+    "-../../.agents/skills/siemensgpt-community-powerpoint-creation-bot/SKILL.md",
+    "+skills/streamlit-to-marimo/SKILL.md",
+    "+skills/xlsx/SKILL.md"
   ],
   "prompts": [
     "-prompts/create-siemens-pptx.md",
@@ -162,5 +157,22 @@
     "-prompts/tf-simplify.md",
     "-prompts/tf-ticketize.md"
   ],
-  "theme": "catppuccin-mocha"
+  "theme": "catppuccin-mocha",
+  "subagents": {
+    "agentOverrides": {
+      "context-builder": {
+        "model": "minimax/MiniMax-M2.7"
+      },
+      "researcher": {
+        "model": "minimax/MiniMax-M2.7"
+      },
+      "scout": {
+        "model": "minimax/MiniMax-M2.7"
+      },
+      "worker": {
+        "model": "kimi-coding/kimi-for-coding"
+      }
+    }
+  },
+  "hideThinkingBlock": false
 }

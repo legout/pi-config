@@ -73,10 +73,10 @@ The tracked config files contain `__REQUIRED__` placeholders wherever an API key
 | Placeholder location | Service | Key format | Where to get a key |
 |---|---|---|---|
 | `providers.openrouter.apiKey` | **OpenRouter** | `sk-or-v1-...` | [openrouter.ai/keys](https://openrouter.ai/keys) |
+| `providers.nvidia-nim.apiKey` | **NVIDIA NIM** | `nvapi-...` | [build.nvidia.com](https://build.nvidia.com/) |
 | `providers.siemens.apiKey` | **Siemens AI API** | `SIAK-...` | Internal Siemens developer portal |
-| `providers.zai.apiKey` | **Z.ai** | Hex string | Z.ai developer console |
 
-> **Note:** The `ollama` provider uses `"apiKey": "none"` (local-only, no key needed).
+> **Note:** The current tracked `models.json` does not require keys for local-only providers unless you add them yourself later.
 
 ### `config/web-search.json` — Web Search
 
@@ -88,10 +88,10 @@ The tracked config files contain `__REQUIRED__` placeholders wherever an API key
 
 | Placeholder location | Service | Key format | Where to get a key |
 |---|---|---|---|
-| `mcpServers.zai-web-reader.headers.Authorization` | **Z.ai Web Reader** | `Bearer ...` (same Z.ai key as above) | Same Z.ai key as `providers.zai.apiKey` |
-| `mcpServers.zai-vision.env.Z_AI_API_KEY` | **Z.ai Vision MCP** | Same Z.ai key | Same Z.ai key as `providers.zai.apiKey` |
+| `mcpServers.zai-web-reader.headers.Authorization` | **Z.ai Web Reader** | `Bearer ...` | Z.ai developer console |
+| `mcpServers.zai-vision.env.Z_AI_API_KEY` | **Z.ai Vision MCP** | Same Z.ai key | Z.ai developer console |
 
-> **Tip:** The Z.ai key is shared across 3 locations. Once you have it, replace all three `__REQUIRED__` entries.
+> **Tip:** The Z.ai key is currently shared across 2 MCP entries in `config/mcp.json`.
 
 ### Summary of keys you need
 
@@ -99,8 +99,9 @@ The tracked config files contain `__REQUIRED__` placeholders wherever an API key
 |---|---|---|---|
 | 1 | Google Gemini API key | `web-search.json` | ✅ Yes |
 | 2 | OpenRouter API key | `models.json` | ✅ Free models available |
-| 3 | Z.ai API key | `models.json`, `mcp.json` (×2) | Check Z.ai |
+| 3 | NVIDIA NIM API key | `models.json` | Check NVIDIA |
 | 4 | Siemens AI API key | `models.json` | Internal only |
+| 5 | Z.ai API key | `mcp.json` (×2) | Check Z.ai |
 
 ---
 
